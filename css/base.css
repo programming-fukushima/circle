@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+/* 上部のメニューバー部分 */
+
+body{
+    margin: 0;
+    background: #f7cae3;
+}
+p{
+    font-size: 20px;
+
+}
+.top-text {
+    font-size: 40px;
+    color: rgb(80, 129, 233);
+}
+
+.topbar{
+	background: #2ce745;
+}
+.namelist{
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: auto;
+}
+.list{
+	box-sizing: border-box;
+    float: left;
+    display: table-cell;
+	border-right: 1px solid #f3f1f1;
+    width: 20%;
+}
+.list:last-child {
+	border-right: none;
+}
+.name{
+	display: block;
+	padding: 25px 0;
+	width: 100%;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 25px;
+	color: #b419ac;
+}
+.name:hover {
+	background: #cff013;
+}
+
+
+/* 画像いったん保留 */
+.front-image{
+    width: 500px;
+    height: 400px;
+}
+/* お問い合わせ */
+.call{
+    font-size: 20px;
+    color: #f3f1f1;
+    background: rgb(31, 19, 19);
+}
+
+.questionnaire{
+    font-size: 30px;
+    background: rgb(238, 64, 160);
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #4cc8ee;
+}
+.copyright{
+    margin: 0;
+    font-size: 25px;
+    color: #d64494;
+}
